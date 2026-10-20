@@ -1,0 +1,54 @@
+timestamp,category,question,selected_model,quality_score,verification_score,verification_confidence,verification_available,consistency_score,evidence_score,supported_claims,contradicted_claims,insufficient_evidence,total_claims,final_trust_score,trust_level
+2026-07-26T14:14:21,General Knowledge,What is the smallest country in the world by area?,GPT-OSS,9.135,10.0,98.0,True,8.236,3.75,3,0,0,8,7.3766,MODERATE TRUST
+2026-07-26T14:34:10,General Knowledge,What is the largest ocean on Earth?,Gemini,9.253,,,False,9.0226,0.0,0,0,0,0,4.9042,LOW TRUST
+2026-07-26T15:15:25,General Knowledge,Which country has the largest population in the world?,Gemini,9.344,,,False,9.2904,0.0,0,0,0,0,4.9763,LOW TRUST
+2026-08-02T17:13:58,General Knowledge,What is the capital of Australia?,GPT-OSS,9.473,10.0,98.0,True,8.486,8.75,7,1,0,8,9.253,HIGH TRUST
+2026-08-02T17:16:27,General Knowledge,Who developed the theory of relativity?,GPT-OSS,9.382,9.0,97.0,True,7.8832,10.0,8,0,0,8,9.3529,HIGH TRUST
+2026-08-02T17:23:31,General Knowledge,Which language has the most native speakers worldwide?,Gemini,9.564,9.0,95.0,True,9.0959,10.0,8,0,0,8,9.5288,HIGH TRUST
+2026-08-02T17:30:08,General Knowledge,What is the longest river in the world?,Qwen,8.874,9.0,95.0,True,9.1609,9.375,7,0,1,8,9.1095,HIGH TRUST
+2026-08-02T17:32:42,General Knowledge,Which planet is closest to the Sun?,GPT-OSS,9.35,10.0,98.0,True,8.3347,10.0,8,0,0,8,9.6385,HIGH TRUST
+2026-08-02T17:37:39,General Knowledge,What is the largest desert in the world?,Gemini,9.572,10.0,98.0,True,9.1498,9.375,7,0,1,8,9.5678,HIGH TRUST
+2026-08-02T17:40:11,General Knowledge,Which element has the chemical symbol Au?,Gemini,9.001,9.0,95.0,True,8.3414,9.375,7,0,1,8,9.0657,HIGH TRUST
+2026-08-02T17:45:27,Science,What causes the seasons on Earth?,Gemini,9.335,10.0,98.0,True,8.8993,10.0,8,0,0,8,9.6904,HIGH TRUST
+2026-08-03T19:14:11,Science,How does photosynthesis work?,GPT-OSS,9.525,10.0,96.0,True,8.8341,8.75,7,1,0,8,9.3034,HIGH TRUST
+2026-08-03T19:16:55,Science,What is the difference between DNA and RNA?,Qwen,9.724,10.0,98.0,True,8.4958,10.0,8,0,0,8,9.7668,HIGH TRUST
+2026-08-03T19:19:32,Science,Why is the sky blue?,Qwen,9.794,9.0,95.0,True,9.2956,10.0,8,0,0,8,9.6178,HIGH TRUST
+2026-08-03T19:22:06,Science,What causes earthquakes?,GPT-OSS,9.454,10.0,96.0,True,8.3599,10.0,8,0,0,8,9.6722,HIGH TRUST
+2026-08-03T19:24:46,Science,How do vaccines help the immune system protect against disease?,GPT-OSS,9.649,10.0,98.0,True,7.9911,10.0,8,0,0,8,9.6938,HIGH TRUST
+2026-08-03T19:33:15,Science,What is the difference between nuclear fission and nuclear fusion?,Gemini,9.299,9.0,95.0,True,8.6603,10.0,8,0,0,8,9.4057,HIGH TRUST
+2026-08-03T19:45:39,Science,What is quantum entanglement?,Qwen,9.242,10.0,96.0,True,8.2793,10.0,8,0,0,8,9.6005,HIGH TRUST
+2026-08-04T16:38:13,Science,How does gravity affect objects in space?,Gemini,9.012,9.0,95.0,True,7.7435,10.0,8,0,0,8,9.2279,HIGH TRUST
+2026-08-04T16:40:53,AI & Technology,Why was AlexNet significant in the development of deep learning?,Gemini,9.361,9.0,95.0,True,9.0744,8.75,7,1,0,8,9.0282,HIGH TRUST
+2026-08-04T16:58:48,Science,What evidence supports the Big Bang theory?,GPT-OSS,9.336,10.0,96.0,True,7.5741,10.0,8,0,0,8,9.5582,HIGH TRUST
+2026-08-04T17:01:08,AI & Technology,What is the difference between machine learning and deep learning?,Qwen,9.506,10.0,96.0,True,8.7089,10.0,8,0,0,8,9.7227,HIGH TRUST
+2026-08-04T17:03:37,AI & Technology,What is a transformer architecture in artificial intelligence?,Qwen,9.453,10.0,95.0,True,8.3509,10.0,8,0,0,8,9.671,HIGH TRUST
+2026-08-04T17:06:34,AI & Technology,How does retrieval-augmented generation improve large language model responses?,GPT-OSS,9.366,9.0,95.0,True,7.7733,8.75,6,0,2,8,8.8996,HIGH TRUST
+2026-08-04T17:10:43,AI & Technology,What is the difference between supervised and unsupervised learning?,GPT-OSS,9.633,10.0,98.0,True,7.8845,10.0,8,0,0,8,9.6784,HIGH TRUST
+2026-08-04T21:25:37,AI & Technology,What is overfitting in machine learning and how can it be reduced?,Qwen,9.471,10.0,96.0,True,8.4711,10.0,8,0,0,8,9.6884,HIGH TRUST
+2026-08-06T09:40:32,AI & Technology,What are the main limitations of large language models?,Qwen,9.269,9.0,95.0,True,8.4605,10.0,8,0,0,8,9.3767,HIGH TRUST
+2026-08-06T09:42:48,AI & Technology,What is federated learning and why is it useful?,GPT-OSS,9.336,10.0,95.0,True,8.9057,9.375,7,0,1,8,9.4726,HIGH TRUST
+2026-08-07T17:40:21,AI & Technology,How does a convolutional neural network process images?,Qwen,9.524,9.0,96.0,True,8.8283,10.0,8,0,0,8,9.49,HIGH TRUST
+2026-08-07T17:45:33,AI & Technology,How does quantum computing differ from classical computing?,GPT-OSS,9.456,9.0,95.0,True,8.3762,9.375,7,0,1,8,9.2057,HIGH TRUST
+2026-08-07T17:48:22,History,What were the major causes of World War I?,GPT-OSS,9.475,10.0,96.0,True,8.5016,8.75,7,1,0,8,9.2552,HIGH TRUST
+2026-08-07T18:09:04,History,What were the major causes of the French Revolution?,Gemini,9.335,9.0,95.0,True,8.5655,10.0,8,0,0,8,9.407,HIGH TRUST
+2026-08-07T18:12:09,History,What was the significance of the Industrial Revolution?,GPT-OSS,9.48,9.0,95.0,True,8.2028,8.75,6,0,2,8,8.9768,HIGH TRUST
+2026-08-07T19:38:30,History,What factors contributed to the fall of the Roman Empire?,Qwen,9.214,9.0,92.0,True,8.0908,10.0,8,0,0,8,9.3233,HIGH TRUST
+2026-08-07T19:41:03,History,What were the major consequences of World War II?,GPT-OSS,8.945,9.0,95.0,True,6.3003,9.375,7,0,1,8,8.8448,HIGH TRUST
+2026-08-07T19:43:36,History,What was the significance of the Magna Carta?,GPT-OSS,9.554,9.0,95.0,True,8.694,8.125,6,1,1,8,8.8293,HIGH TRUST
+2026-08-08T08:41:21,History,What factors led to the collapse of the Soviet Union?,Qwen,9.266,9.0,95.0,True,8.4382,7.5,4,0,4,8,8.4986,HIGH TRUST
+2026-08-08T08:44:34,History,What was the purpose of the Marshall Plan?,Gemini,9.291,9.0,95.0,True,8.6075,10.0,8,0,0,8,9.398,HIGH TRUST
+2026-08-08T08:47:27,History,What were the major achievements of the Indus Valley Civilization?,GPT-OSS,9.511,9.0,92.0,True,7.0728,7.5,5,1,2,8,8.4356,HIGH TRUST
+2026-08-08T08:55:12,Environment & Health,Is nuclear energy environmentally friendly?,Qwen,9.141,8.0,92.0,True,8.6071,8.75,7,1,0,8,8.6655,HIGH TRUST
+2026-08-08T22:14:04,History,What were the main causes of the Cold War?,Qwen,9.226,9.0,95.0,True,8.1754,9.375,7,0,1,8,9.1166,HIGH TRUST
+2026-08-08T22:16:34,Environment & Health,What are the main causes of climate change?,Gemini,9.342,10.0,98.0,True,8.9444,9.375,7,0,1,8,9.4783,HIGH TRUST
+2026-08-08T22:19:17,Environment & Health,How does deforestation contribute to climate change?,Qwen,9.541,9.0,95.0,True,8.9423,8.125,6,1,1,8,8.8503,HIGH TRUST
+2026-08-08T22:46:46,Environment & Health,What are the environmental impacts of electric vehicles over their full life cycle?,Gemini,9.286,8.0,90.0,True,8.5744,8.75,7,1,0,8,8.7057,HIGH TRUST
+2026-08-09T09:28:27,Environment & Health,How does air pollution affect human health?,Qwen,9.55,9.0,94.0,True,8.6684,10.0,8,0,0,8,9.4818,HIGH TRUST
+2026-08-09T09:30:56,Environment & Health,What are the main environmental effects of plastic pollution?,GPT-OSS,9.318,9.0,93.0,True,8.4533,9.375,7,0,1,8,9.172,HIGH TRUST
+2026-08-09T09:33:09,Environment & Health,How does antibiotic resistance develop?,Gemini,9.364,9.0,96.0,True,8.76,10.0,8,0,0,8,9.4352,HIGH TRUST
+2026-08-09T11:54:56,Environment & Health,What are the benefits and limitations of renewable energy sources?,Gemini,9.245,9.0,92.0,True,8.2974,9.375,7,0,1,8,9.1345,HIGH TRUST
+2026-08-09T20:51:50,Environment & Health,How does climate change affect biodiversity?,Gemini,9.7,9.0,95.0,True,8.3324,10.0,8,0,0,8,9.4932,HIGH TRUST
+2026-08-09T20:55:18,Environment & Health,What are the major causes and health effects of water pollution?,Qwen,9.136,9.0,95.0,True,7.574,9.375,7,0,1,8,9.0294,HIGH TRUST
+2026-10-17T14:24:34,Manual,What is the smallest country in the world by area?,GPT-OSS,8.866,10.0,98.0,True,8.4382,10.0,8,0,0,0,8,9.5036,HIGH TRUST
+2026-10-17T14:35:19,Manual,What is the smallest country in the world by area?,GPT-OSS,9.084,9.0,95.0,True,7.2265,5.625,4,3,1,0,8,7.6666,MODERATE TRUST
+2026-10-17T14:46:03,General Knowledge,What is the largest ocean on Earth?,GPT-OSS,9.472,10.0,99.0,True,8.4825,8.75,7,1,0,0,8,9.2523,HIGH TRUST

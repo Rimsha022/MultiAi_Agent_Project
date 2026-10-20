@@ -1,0 +1,51 @@
+question_id,category,question
+Q001,General Knowledge,What is the largest ocean on Earth?
+Q002,General Knowledge,Which country has the largest population in the world?
+Q003,General Knowledge,What is the capital of Australia?
+Q004,General Knowledge,Who developed the theory of relativity?
+Q005,General Knowledge,What is the smallest country in the world by area?
+Q006,General Knowledge,Which language has the most native speakers worldwide?
+Q007,General Knowledge,What is the longest river in the world?
+Q008,General Knowledge,Which planet is closest to the Sun?
+Q009,General Knowledge,What is the largest desert in the world?
+Q010,General Knowledge,Which element has the chemical symbol Au?
+Q011,Science,What causes the seasons on Earth?
+Q012,Science,How does photosynthesis work?
+Q013,Science,What is the difference between DNA and RNA?
+Q014,Science,Why is the sky blue?
+Q015,Science,What causes earthquakes?
+Q016,Science,How do vaccines help the immune system protect against disease?
+Q017,Science,What is the difference between nuclear fission and nuclear fusion?
+Q018,Science,What evidence supports the Big Bang theory?
+Q019,Science,How does gravity affect objects in space?
+Q020,Science,What is quantum entanglement?
+Q021,AI & Technology,Why was AlexNet significant in the development of deep learning?
+Q022,AI & Technology,What is the difference between machine learning and deep learning?
+Q023,AI & Technology,What is a transformer architecture in artificial intelligence?
+Q024,AI & Technology,How does retrieval-augmented generation improve large language model responses?
+Q025,AI & Technology,What is overfitting in machine learning and how can it be reduced?
+Q026,AI & Technology,What is the difference between supervised and unsupervised learning?
+Q027,AI & Technology,How does a convolutional neural network process images?
+Q028,AI & Technology,What are the main limitations of large language models?
+Q029,AI & Technology,What is federated learning and why is it useful?
+Q030,AI & Technology,How does quantum computing differ from classical computing?
+Q031,History,What were the major causes of World War I?
+Q032,History,What factors contributed to the fall of the Roman Empire?
+Q033,History,What were the major causes of the French Revolution?
+Q034,History,What was the significance of the Industrial Revolution?
+Q035,History,What were the major consequences of World War II?
+Q036,History,What was the significance of the Magna Carta?
+Q037,History,What factors led to the collapse of the Soviet Union?
+Q038,History,What was the purpose of the Marshall Plan?
+Q039,History,What were the major achievements of the Indus Valley Civilization?
+Q040,History,What were the main causes of the Cold War?
+Q041,Environment & Health,Is nuclear energy environmentally friendly?
+Q042,Environment & Health,What are the main causes of climate change?
+Q043,Environment & Health,How does deforestation contribute to climate change?
+Q044,Environment & Health,What are the environmental impacts of electric vehicles over their full life cycle?
+Q045,Environment & Health,How does air pollution affect human health?
+Q046,Environment & Health,What are the main environmental effects of plastic pollution?
+Q047,Environment & Health,How does antibiotic resistance develop?
+Q048,Environment & Health,What are the benefits and limitations of renewable energy sources?
+Q049,Environment & Health,How does climate change affect biodiversity?
+Q050,Environment & Health,What are the major causes and health effects of water pollution?
