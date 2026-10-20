@@ -109,7 +109,12 @@ def run_with_retry(
                     "rate_limit",
                     "too many requests",
                     "temporarily unavailable",
-                    "503"
+                    "503",
+                    "invalid json",
+                    "empty response",
+                    "timed out",
+                    "timeout",
+                    "connection"
                 ]
             )
 
@@ -232,7 +237,7 @@ User Question:
 
         response = groq_client.chat.completions.create(
 
-            model="qwen/qwen3.6-27b",
+            model="qwen/qwen3.8-27b",
 
             messages=[
                 {
@@ -436,19 +441,23 @@ def verify_external_evidence(claims):
 
         try:
 
-            evidence = retrieve_evidence(
+            evidence = run_with_retry(
+                retrieve_evidence,
                 claim,
-                max_results=3
+                max_results=3,
+                max_retries=3,
+                base_delay=5
             )
 
             if evidence:
 
-                verification = (
-                    verify_claim_with_evidence(
-                        client=groq_client,
-                        claim=claim,
-                        evidence=evidence
-                    )
+                verification = run_with_retry(
+                    verify_claim_with_evidence,
+                    client=groq_client,
+                    claim=claim,
+                    evidence=evidence,
+                    max_retries=3,
+                    base_delay=5
                 )
 
             else:
@@ -485,6 +494,11 @@ def verify_external_evidence(claims):
             })
 
         except Exception as e:
+
+            print(
+                f"DEBUG: Evidence check failed for claim "
+                f"{claim!r}: {e}"
+            )
 
             evidence_results.append({
 
