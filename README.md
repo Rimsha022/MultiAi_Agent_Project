@@ -1,4 +1,4 @@
-Multi-Agent AI System for Cross-Model Response Validation and Trustworthy Decision Making
+## Multi-Agent AI System for Cross-Model Response Validation and Trustworthy Decision Making
 
 Overview
 
