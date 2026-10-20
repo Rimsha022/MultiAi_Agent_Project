@@ -1,12 +1,12 @@
 ## Multi-Agent AI System for Cross-Model Response Validation and Trustworthy Decision Making
 
-Overview
+### Overview
 
 The Multi-Agent AI System is an AI-powered project designed to improve the reliability and trustworthiness of AI-generated responses. Instead of depending on a single AI model, the system uses a multi-agent approach to analyze responses, compare their content, verify supporting evidence, and help identify a reliable final answer.
 
 The project aims to reduce the impact of hallucinations, inconsistent answers, and unsupported claims through response evaluation, retrieval, and verification.
 
-Key Features
+### Key Features
 
 Multi-Agent Architecture: Organizes AI tasks into specialized agents.
 
@@ -22,7 +22,7 @@ Explainable Decision-Making: Supports more transparent evaluation and selection 
 
 Research and Benchmarking: Includes modules for analyzing results, auditing claims, and running benchmark experiments.
 
-System Architecture
+### System Architecture
 
 The system follows a modular workflow:
 
